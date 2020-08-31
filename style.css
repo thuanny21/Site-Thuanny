@@ -1,0 +1,189 @@
+:root {
+    --color-primeira : #5CA47A;
+    --color-segunda: #003333;
+    --color-terceira: #ffffff;
+    --color-quarta: #1A1A1A;
+}
+
+body {
+    background: #000000;
+}
+
+img {
+    max-width: 100%;
+}
+
+img.logo {
+    width: 220px;
+    padding: 20px 2px 0 20px;
+}
+
+img.img-banner {
+    margin-bottom: 50px;
+}
+
+h1.titulo {
+    color: var(--color-primeira);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    margin: 0 auto;
+    top: 25%;
+    text-align: left;
+    left: 0px;
+    right: 0px;
+    
+}
+
+h4.subtitulo {
+    position: absolute;
+    margin: 0 auto;
+    top: 45%;
+    text-align: left;
+    left: 0px;
+    right: 0px;
+    color: var(--color-terceira);
+}
+
+h1.titulo-interno {
+    color:var(--color-primeira);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+
+}
+
+p.paragrafo {
+    color: var(--color-terceira);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+/*Botaoo */
+.expand_button {
+    position: absolute;
+    left: 82%;
+    top: 58%;
+    transform: translate(-50%, -50%)
+}
+
+.fncybutton {
+    width: 200px;
+    height: 80px;
+    cursor: pointer
+}
+
+.line {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: var(--color-primeira);
+    transition: .5s;
+    opacity: 0.6
+}
+
+.v1 {
+    left: 0;
+    top: 40px;
+    height: 70px;
+    margin: -35px 0
+}
+
+.v2 {
+    left: 5px;
+    top: 40px;
+    height: 80px;
+    margin: -40px 0
+}
+
+.v3 {
+    right: 5px;
+    top: 40px;
+    height: 80px;
+    margin: -40px 0
+}
+
+.v4 {
+    right: 0;
+    top: 40px;
+    height: 70px;
+    margin: -35px 0
+}
+
+.h1 {
+    left: 100px;
+    top: 0;
+    width: 190px;
+    margin: 0 -95px
+}
+
+.h2 {
+    left: 100px;
+    top: 5px;
+    width: 200px;
+    margin: 0 -100px
+}
+
+.h3 {
+    left: 100px;
+    bottom: 5px;
+    width: 200px;
+    margin: 0 -100px
+}
+
+.h4 {
+    left: 100px;
+    bottom: 0;
+    width: 190px;
+    margin: 0 -95px
+}
+
+.buttontext {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    color: var(--color-primeira);
+    line-height: 60px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+    transition: .5s
+}
+
+.fncybutton:hover .buttontext {
+    background-color: var(--color-primeira);
+    color: var(--color-quarta);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5)
+}
+
+.fncybutton:hover .v1,
+.fncybutton:hover .v4 {
+    margin: 0;
+    height: 0;
+    opacity: 1
+}
+
+.fncybutton:hover .v2,
+.fncybutton:hover .v3 {
+    height: 70px;
+    margin: -35px 0;
+    opacity: 1
+}
+
+.fncybutton:hover .h1,
+.fncybutton:hover .h4 {
+    margin: 0;
+    width: 0;
+    opacity: 1
+}
+
+.fncybutton:hover .h2,
+.fncybutton:hover .h3 {
+    width: 190px;
+    margin: 0 -95px;
+    opacity: 1
+}
