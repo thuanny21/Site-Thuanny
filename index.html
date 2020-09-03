@@ -18,11 +18,13 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Thuanny Developer</title>
   </head>
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark">
     <a class="navbar-brand" href="#">
       <img
         class="logo" src="logo.png"/></a
@@ -36,46 +38,34 @@
     <div class="collapse navbar-collapse" id="navbar1">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="http://bootstrap-ecommerce.com"
-            >Home <span class="sr-only">(current)</span></a
+          <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a
           >
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="html-components.html">Sobre</a>
+            <a class="nav-link" href="#sobre">Sobre</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="html-components.html">Portfólio</a>
+          <a class="nav-link" href="#tecnologias">Tecnologias</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="html-components.html">Tecnologias</a>
-        </li>
+            <a class="nav-link" href="#portfolio">Portfólio</a>
+        </li>        
         <li class="nav-item">
-            <a class="nav-link" href="html-components.html">Contato</a>
+            <a class="nav-link" href="#contato">Contato</a>
         </li>   
       </ul>
     </div>
   </nav>
   <body id="root">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-sm-6 col-md-5 col-lg-6">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="bloco-banner">
                 <h1 class="titulo text-right">Thuanny</br> Developer</h1>
-                <h4 class="subtitulo text-right">Desenvolvimento Front End & UI Design</h4>
-                <div class="expand_button">
-                    <div class="fncybutton">
-                        <div class="line vertical v1"></div>
-                        <div class="line vertical v2"></div>
-                        <div class="line vertical v3"></div>
-                        <div class="line vertical v4"></div>
-                        <div class="line horizontal h1"></div>
-                        <div class="line horizontal h2"></div>
-                        <div class="line horizontal h3"></div>
-                        <div class="line horizontal h4"></div>
-                        <div class="buttontext">Contato</div>
-                    </div>
+                <h4 class="subtitulo text-right">Desenvolvimento Front End & UI Design</h4>              
                 </div>
             </div>
-            <div class="col-sm-6 col-md-5 col-lg-6">
+            <div class="col-md-6">
                 <img class="img-banner" src="thuanny-developer1.svg">
             </div>
         </div>
@@ -86,7 +76,7 @@
         </h1>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6">                  
                     <p class="paragrafo">
                         Olá,
                         eu sou a Thuanny. Empreendedora, freelancer, apaixonada por tecnologia, 
@@ -107,24 +97,95 @@
             </div>
         </div>  
     </section>
-    <section id="sobre">
+    <section id="tecnologias">
         <h1 class="titulo-interno text-center">
             Tecnologias
         </h1>
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
+          <div class="col-md-12 cont-tec">
+            <div class="row justify-content-center">
+                <div class="col-md-2 col-sm-3 col-xs-6">
                     <img class="img-tecn" src="html.svg">
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2 col-sm-3 col-xs-6">
                     <img class="img-tecn" src="css.svg">
                 </div> 
-                <div class="col-md-3">
+                <div class="col-md-2 col-sm-3 col-xs-6">
                     <img class="img-tecn" src="js.svg">
                 </div> 
+                <div class="col-md-2 col-sm-3 col-xs-6">
+                  <img class="img-tecn" src="html.svg">
+              </div>
+              <div class="col-md-2 col-sm-3 col-xs-6">
+                  <img class="img-tecn" src="css.svg">
+              </div> 
+              <div class="col-md-2 col-sm-3 col-xs-6">
+                  <img class="img-tecn" src="js.svg">
+              </div> 
             </div>
+          </div>
         </div>
         
+    </section>
+
+    <section id="portfolio">      
+      <h1 class="titulo-interno text-center">
+          Portfólio
+      </h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-port" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" /></div>
+              <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-port" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" /></div>
+              <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-port" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" /></div>
+              <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-port" src="http://th03.deviantart.net/fs70/200H/f/2010/256/0/9/painting_of_nature_by_dhikagraph-d2ynalq.jpg" /></div>
+            <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-port" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" /></div>
+              <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-port" src="http://th03.deviantart.net/fs70/200H/f/2010/256/0/9/painting_of_nature_by_dhikagraph-d2ynalq.jpg" /></div>
+            <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-port" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" /></div>
+              <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive img-port" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" /></div>
+          </div>
+      </div>
+    </section>
+
+    <section class="form-section" >
+      <div class="overlay"></div>
+       <div class="container">
+         <div class="row">
+         <div class="heading-title"> </div>
+       </div>
+       <h1 class="titulo-interno text-center">
+        Portfólio
+      </h1>
+        <div class="row">
+       <div class="col-md-12">
+          <div class="contact-box">
+                <ul class="list-inline">
+            <li>
+                     <div class="contact">
+               <i class="fa fa-map-marker" aria-hidden="true"></i>
+             <p> Contagem <br> MG </p>
+             </div>
+           </li>
+           <li>
+                     <div class="contact">
+               <i class="fa fa-envelope" aria-hidden="true"></i>
+             <p> thuanny@thuanny.com <br> </p>
+             </div>
+           </li>
+           <li>
+                     <div class="contact">
+               <i class="fa fa-mobile" aria-hidden="true"></i>
+             <p> +55 (31) 99271-4861</p>
+             </div>
+           </li>
+          
+          </ul>
+              </div>			
+        </div>    
+         
+         
+         
+      </div>
+      </div>
     </section>
     
 
@@ -145,5 +206,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
